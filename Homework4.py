@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #here I am changing the code for testing 
+#now i'm changing the code on a text editor on my local machine
 """
 Michaella Schaszberger
 mls2290
@@ -18,7 +19,8 @@ def normpdf(x, mean, sd):
     position x.     
     You do not have to understand how this function works exactly.     
     """     
-    var = float(sd)**2     
+    hello = 180
+	var = float(sd)**2     
     denom = (2*math.pi*var)**.5     
     num = math.exp(-(float(x)-float(mean))**2/(2*var))     
     return num/denom
