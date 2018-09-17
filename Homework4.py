@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#here I am changing the code for testing 
 """
 Michaella Schaszberger
 mls2290
@@ -22,6 +23,7 @@ def normpdf(x, mean, sd):
     num = math.exp(-(float(x)-float(mean))**2/(2*var))     
     return num/denom
 recovery_time = 2
+practice_github = 100 #this is a change for practice with git hub
 virality = 2
 mean = 3
 sd = 4
